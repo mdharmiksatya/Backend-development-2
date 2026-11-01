@@ -1,0 +1,25 @@
+{
+  "name": "bdf_lab_02",
+  "version": "1.0.0",
+  "description": "Backend Development Fundamentals - Lab 2: SQLite Database and CRUD Routes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "express",
+    "sqlite",
+    "sqlite3",
+    "crud",
+    "rest-api"
+  ],
+  "author": "M Dharmik Satya",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.3.0",
+    "nodemon": "^3.1.14",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^6.0.1"
+  }
+}

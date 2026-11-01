@@ -1,0 +1,25 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Executables & CLI tool binary
+*.exe
+
+# Helper & setup utility scripts
+generate_screenshots.js
+init_db.sql
+
+# IDE / Editor configuration
+.vscode/
+.idea/
