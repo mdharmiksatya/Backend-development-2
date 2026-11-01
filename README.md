@@ -6,6 +6,16 @@
 
 ---
 
+## 🌐 Live Deployment (Render Cloud)
+
+The application is deployed and running live on Render:
+
+- 🚀 **Live Application URL:** [https://backend-development-2-5lwk.onrender.com](https://backend-development-2-5lwk.onrender.com)
+- 📚 **GET All Books Endpoint:** [https://backend-development-2-5lwk.onrender.com/books/](https://backend-development-2-5lwk.onrender.com/books/)
+- 📖 **GET Book by ID Endpoint (Sample ID: 1):** [https://backend-development-2-5lwk.onrender.com/books/1/](https://backend-development-2-5lwk.onrender.com/books/1/)
+
+---
+
 ## 1. Student Information
 
 | Field | Details |
@@ -247,7 +257,8 @@ Demonstrates `.mode table`, `.tables`, `PRAGMA table_info(book);`, `SELECT * FRO
 
 ## 12. Deployment & Hosting Notes (Render / Cloud)
 
-- **Build Command:** `npm install`
+- **Live URL:** [https://backend-development-2-5lwk.onrender.com](https://backend-development-2-5lwk.onrender.com)
+- **Build Command:** `npm install --build-from-source`
 - **Start Command:** `npm start`
 - **Port Handling:** Configured dynamically via `process.env.PORT || 3000`.
 - **Database Path:** Resolved using Node's native `path.join(__dirname, 'books.db')` ensuring cross-platform path resolution between Windows and Linux environments.
@@ -260,5 +271,6 @@ Demonstrates `.mode table`, `.tables`, `PRAGMA table_info(book);`, `SELECT * FRO
 
 ## 13. GitHub Repository
 
-- **Repository Name:** `BDF_Lab_02`
-- **Status:** Local project workspace prepared and fully verified. Ready for Git initialization upon approval.
+- **Repository:** [https://github.com/mdharmiksatya/Backend-development-2](https://github.com/mdharmiksatya/Backend-development-2)
+- **Branch:** `main`
+- **Live Deployment:** Connected to Render Web Service [backend-development-2-5lwk.onrender.com](https://backend-development-2-5lwk.onrender.com)
